@@ -1,0 +1,27 @@
+# Confidential / unpublished editorial data
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.zip
+
+# Local data directory: never commit proposal or reviewer records
+data/*
+!data/README.txt
+
+# R / RStudio local state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Credentials and deployment metadata
+.Renviron
+.env
+.env.*
+rsconnect/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
